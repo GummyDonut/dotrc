@@ -5,3 +5,4 @@ set hlsearch
 set number
 set rnu
 set autoindent
+set pastetoggle=<F3>
