@@ -18,16 +18,27 @@ set rnu
 " autoindent
 set autoindent
 
-" Used to allow paste without formatting
-set pastetoggle=<F3>
-
 " Set to auto read when a file is changed from the outside
 set autoread
 
 " Turning on menuing
 set wildmenu
 
+" Set current directory as working file
+set autochdir
+
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
 set nowb
 set noswapfile
+
+" shortcut keys
+:map <F3> :tabclose <CR>
+:map <F2> :tabedit 
+
+"navigate through tabs
+:map <Tab> gt
+:map <S-Tab> gT
+
+" Used to allow paste without formatting
+set pastetoggle=<F12>
