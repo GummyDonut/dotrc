@@ -35,6 +35,7 @@ set noswapfile
 " shortcut keys
 :map <F2> :tabedit 
 :map <F3> :tabclose <CR>
+:map <F11>:Explore <CR>
 
 "navigate through tabs
 :map <Tab> gt
