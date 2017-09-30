@@ -25,9 +25,6 @@ set autoread
 " Turning on menuing
 set wildmenu
 
-" Set current directory as working file
-set autochdir
-
 "Prevent the cursor from changing the current column when jumping to other lines within the window
 set nostartofline
 
