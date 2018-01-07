@@ -56,3 +56,7 @@ set noswapfile
 
 " Used to allow paste without formatting
 set pastetoggle=<F12>
+
+" Set syntax for typescript
+autocmd BufNewFile,BufRead *.ts set syntax=javascript
+autocmd BufNewFile,BufRead *.scss set syntax=css
