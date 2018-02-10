@@ -60,3 +60,4 @@ set pastetoggle=<F12>
 " Set syntax for typescript
 autocmd BufNewFile,BufRead *.ts set syntax=javascript
 autocmd BufNewFile,BufRead *.scss set syntax=css
+autocmd BufNewFile,BufRead *.vue set syntax=html
