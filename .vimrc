@@ -61,3 +61,6 @@ set pastetoggle=<F12>
 autocmd BufNewFile,BufRead *.ts set syntax=javascript
 autocmd BufNewFile,BufRead *.scss set syntax=css
 autocmd BufNewFile,BufRead *.vue set syntax=html
+
+" Do not show error highlight
+hi Error NONE
