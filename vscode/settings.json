@@ -1,37 +1,26 @@
 {
-
-    // Whether git is enabled
-  
-    "git.enabled": true,
-  
-    "editor.lineNumbers": "relative",
-    "editor.detectIndentation": false,
-    "eslint.validate": [
-  
-      {
-        "language": "javascript",
-        "autoFix": true
-      },
-      {
-        "language": "javascriptreact",
-        "autoFix": true
-      },
-  
-      {
-  
-        "language" : "vue",
-  
-        "autoFix": true
-  
-      }
-  
-    ],
-  
-    "eslint.autoFixOnSave": true,
-  
-    "eslint.alwaysShowStatus": true,
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "editor.tabSize": 2,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-  
-  }
+  // Whether git is enabled
+  "git.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+}
