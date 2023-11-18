@@ -1,2 +1,2 @@
-# vimrc
-This is simply a repository for storing and updating my vimrc
+# RC FIles Galore
+This is simply a repository for storing all my custom shortcuts and rc files
